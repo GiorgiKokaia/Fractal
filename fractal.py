@@ -67,6 +67,7 @@ def fractal_generator(D, N_points):
                 ind_temp += 1
         box = box_temp
         n_box = n_nextgen
+        return box, n_box
     print("made fractal")
 
 
